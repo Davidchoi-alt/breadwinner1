@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&amp;family=Work+Sans:ital,wght@0,300..700;1,300..700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#febc85","outline-variant":"#d3c3bb","secondary-fixed-dim":"#fab983","surface-tint":"#755846","inverse-primary":"#e5bfa9","on-secondary-fixed-variant":"#683c11","on-error-container":"#93000a","inverse-on-surface":"#f7f0e5","surface-bright":"#fff8f0","on-error":"#ffffff","on-background":"#1e1b15","inverse-surface":"#333029","on-primary":"#ffffff","surface-container-lowest":"#ffffff","surface-variant":"#e8e2d7","primary-fixed":"#ffdbc7","error-container":"#ffdad6","outline":"#81746e","on-primary-fixed-variant":"#5b4130","surface-container-high":"#eee7dc","on-primary-container":"#af8d78","on-primary-fixed":"#2b1709","on-surface":"#1e1b15","background":"#fff8f0","surface-container":"#f4ede2","on-tertiary":"#ffffff","primary-container":"#3e2718","on-tertiary-fixed":"#171e0a","on-tertiary-fixed-variant":"#424a32","on-surface-variant":"#4f453f","error":"#ba1a1a","primary":"#261306","on-secondary-fixed":"#2e1500","surface-container-highest":"#e8e2d7","surface":"#fff8f0","on-secondary-container":"#78491d","secondary-fixed":"#ffdcc2","tertiary-fixed-dim":"#c2caab","surface-dim":"#e0d9ce","primary-fixed-dim":"#e5bfa9","surface-container-low":"#faf3e8","tertiary":"#141a07","tertiary-container":"#282f1a","tertiary-fixed":"#dee6c6","on-tertiary-container":"#8f977b","on-secondary":"#ffffff","secondary":"#845326"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"margin-mobile":"1.25rem","space-xs":"0.25rem","space-lg":"1.75rem","gutter-mobile":"1rem",gutter:"1.5rem","space-md":"1rem","space-xl":"3rem",margin:"3rem","margin-tablet":"2rem","space-sm":"0.5rem"},fontFamily:{"headline-md":["\"Source Serif 4\""],"body-lg":["Work Sans"],"label-md":["Work Sans"],"headline-lg-mobile":["\"Source Serif 4\""],"display-hero":["\"Source Serif 4\""],"body-sm":["Work Sans"],"headline-lg":["\"Source Serif 4\""],"label-sm":["Work Sans"],"label-lg":["Work Sans"],"body-md":["Work Sans"],"display-hero-mobile":["\"Source Serif 4\""],"headline-sm":["\"Source Serif 4\""]},fontSize:{"headline-md":["26px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"30px",letterSpacing:"-0.005em",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"600"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"600"}],"display-hero":["56px",{lineHeight:"68px",letterSpacing:"-0.02em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"400"}],"headline-lg":["38px",{lineHeight:"48px",letterSpacing:"-0.015em",fontWeight:"600"}],"label-sm":["10px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.04em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0",fontWeight:"400"}],"display-hero-mobile":["36px",{lineHeight:"46px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"0",fontWeight:"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(62,39,24,0.06)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6"><div class="flex items-center gap-6"><a class="flex flex-col text-left group" data-path="brand-principles" href="#"><span class="font-headline-sm text-headline-sm text-primary tracking-tight group-hover:text-secondary transition-colors">정직한 빵</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">원칙의 식탁 · Songpa</span></a></div><nav class="hidden xl:flex items-center gap-8" data-active-classes="text-primary font-bold border-b-2 border-primary pb-1"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-path="brand-principles" href="#">브랜드 소개 및 3가지 원칙</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-path="bread-lineup" href="#">식사빵 라인업</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-path="dining-table-guide" href="#">가족 식탁 가이드</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors pb-1" data-path="b2b-supply-inquiry" href="#">B2B 레스토랑 납품 문의</a><a aria-current="page" class="transition-colors text-primary font-bold border-b-2 border-primary pb-1" data-path="locations-and-schedule" href="#">매장 위치 및 빵 나오는 시간</a></nav><div class="flex items-center gap-4"><a class="inline-flex items-center justify-center px-4 py-2 bg-primary text-on-primary rounded font-label-md text-label-md hover:bg-secondary transition-colors" data-path="b2b-consultation" href="#">납품 상담 신청</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtC-UsjBRM58fHgHhtGOy0ZZrhgK1ZPTcpHi5x6SacBZXlDKOXcpQYlOOVuDTDEPWm7AG6k2BzryQQZKqUweja4_umfQdx6lO3ijylI6Pv-CGvpRL3cGID1O4_gmNVKkyFKv3lLDJiOX18R1FlHPIgTSwV2XHXUhRPO2lsPxuRcGgjHCVxmqYn9PSMgfJz3qr-88PqJWLkBCVtUh5TCAqwltpImCP2zHE9X6XSWUXb7iZc2XnlMLup"/></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Editorial Header & Ambient Intro -->
+<section class="w-full max-w-7xl mx-auto px-6 lg:px-12 py-10 lg:py-16">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-8">
+<div class="space-y-4 max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-container/30 text-on-secondary-container rounded font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>오븐 베이킹 타임테이블 &amp; 송파 두 매장 안내</span>
+</div>
+<h1 class="font-display-hero text-headline-lg lg:text-display-hero text-primary tracking-tight">
+          따뜻한 김이 오르는 순간,<br class="hidden sm:inline"/> 가족의 식탁에 닿습니다.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          매일 이른 아침, 석촌과 방이의 화덕에서 정직한 곡물과 24시간 저온 숙성 발효종(Levain)으로 구워냅니다.
+          가장 온전한 풍미를 느끼실 수 있도록 오븐 출하 시간표와 정성 어린 보관 가이드를 전합니다.
+        </p>
+</div>
+<!-- Quick Realtime Store Status Pill -->
+<div class="bg-surface-container-low p-6 rounded-xl shadow-sm flex flex-col gap-3 min-w-[280px]">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">오늘의 빵 재고 상태</span>
+<span class="flex items-center gap-1.5 text-tertiary font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+            당일 구움 진행중
+          </span>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary">전 라인업 정상 출하</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          한정 수량 100% 수제 생산으로 조기 소진될 수 있으니 오후 방문 시 사전 예약을 권장합니다.
+        </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-2 text-secondary font-label-md text-label-md hover:text-primary transition-colors" href="#reservation-anchor">
+<span>당일 픽업 예약 바로가기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Visual Banner with Hearth Imagery -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 pt-4">
+<div class="lg:col-span-8 overflow-hidden rounded-xl bg-surface-container shadow-sm relative group">
+<img class="w-full h-80 lg:h-96 object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Artisanal French baguettes and rustic sourdough loaves with deeply blistered golden crusts cooling on an open wooden baker's rack in a warm morning light in Songpa bakery, dusted with fine stone-ground flour and warm earthy tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDG2uZ4ZtnwQhAh4YG496d_C1J_DQMc2wi-owTTTgtyWzMVm1wxPZ3O5f0zkuVnS43IRUNA3cDQmbXKO_a6RYMKHJzsaPxJ2PEWKzgLReLr5gGVoGfJ4ytzIf6ZZKLqPNtIUszzcTJFG5nqd6USqrmL1q30Dglhcy-5j6VuVKGL9ctpYW7PMEZJOywcG1SpUC6BKe8L0loxYx4Sb4OHOqAp8KS3q-aBiIiZla1Il4UsLlejTm5YdPKS"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent flex flex-col justify-end p-8 text-on-primary">
+<span class="font-label-md text-label-md tracking-wider text-secondary-fixed">EARLY MORNING BAKE</span>
+<h2 class="font-headline-md text-headline-md mt-1">24시간 저온 발효가 빚어낸 겉바속촉의 절정</h2>
+<p class="font-body-sm text-body-sm text-inverse-on-surface/90 max-w-xl mt-1">소화가 편안한 맷돌 제분 유기농 통밀과 자연 배양 르방만으로 화학 첨가물 없이 정성스레 구워냅니다.</p>
+</div>
+</div>
+<div class="lg:col-span-4 bg-surface-container-low rounded-xl p-8 flex flex-col justify-between shadow-sm">
+<div class="space-y-4">
+<div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">bakery_dining</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">당일 생산 · 당일 완판 원칙</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            전날 남은 빵은 절대로 다음 날 매대에 올리지 않습니다. 매일 06:00 반죽의 최종 온도를 점검하고, 순차적으로 고열의 덱 오븐에 안치합니다.
+          </p>
+</div>
+<div class="bg-surface-container p-4 rounded-lg space-y-2 mt-6">
+<div class="flex items-center justify-between text-on-surface">
+<span class="font-label-md text-label-md text-primary">평균 완판 시간</span>
+<span class="font-label-md text-label-md font-semibold text-secondary">16:30 ~ 17:30</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full w-4/5"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-right">오후 4시 이후엔 재고 확인 후 방문을 권합니다.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 1: Detailed Baking Schedule Timeline & Table -->
+<section class="w-full bg-surface-container-low py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Baking Timetable</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">빵 나오는 시간표</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">
+            가장 겉은 바삭하고 속은 촉촉한 골든 타임입니다. 식사 시간에 맞추어 갓 구워져 나오는 따끈한 빵을 만나보세요.
+          </p>
+</div>
+<div class="flex items-center gap-3 bg-surface-container px-4 py-2.5 rounded-lg text-on-surface">
+<span class="material-symbols-outlined text-secondary">info</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">오븐 사정 및 습도에 따라 ±10분 오차가 발생할 수 있습니다.</span>
+</div>
+</div>
+<!-- Interactive / Visual Timetable Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-12">
+<!-- 08:30 Step -->
+<div class="bg-surface rounded-xl p-8 shadow-sm flex flex-col justify-between transition-transform hover:-translate-y-1 duration-300 relative overflow-hidden">
+<div class="absolute -right-4 -top-6 font-display-hero text-8xl text-surface-container-highest/60 select-none font-bold">1</div>
+<div class="relative space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-container/40 text-on-secondary-container rounded font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">wb_sunny</span>
+<span>1차 오븐 08:30 출하</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">정통 바게트 &amp; 플레인 치아바타</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              가장 얇고 경쾌한 크러스트와 벌집 모양의 기포. 잠실·송파 주민분들의 건강한 아침 식탁 및 샌드위치 브런치용으로 첫 출하됩니다.
+            </p>
+<div class="space-y-1.5 pt-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center justify-between">
+<span>프랑스 T65 전통 바게트</span>
+<span class="font-semibold text-primary">₩ 4,500</span>
+</div>
+<div class="flex items-center justify-between">
+<span>자연발효 플레인 치아바타</span>
+<span class="font-semibold text-primary">₩ 4,000</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-lowest/80 rounded p-3 flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">restaurant</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">페어링 추천: 신선한 가염버터, 엑스트라 버진 올리브유</span>
+</div>
+</div>
+<!-- 10:30 Step -->
+<div class="bg-surface rounded-xl p-8 shadow-sm flex flex-col justify-between transition-transform hover:-translate-y-1 duration-300 relative overflow-hidden">
+<div class="absolute -right-4 -top-6 font-display-hero text-8xl text-surface-container-highest/60 select-none font-bold">2</div>
+<div class="relative space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-container/40 text-on-secondary-container rounded font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">local_cafe</span>
+<span>2차 오븐 10:30 출하</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">블랙 &amp; 그린 올리브 치아바타</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              스페인산 칼라마타 및 그린 올리브의 풍부한 즙과 로즈마리 허브 오일이 듬뿍 스며들어 씹을수록 감칠맛이 폭발하는 인기 빵입니다.
+            </p>
+<div class="space-y-1.5 pt-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center justify-between">
+<span>더블 올리브 치아바타</span>
+<span class="font-semibold text-primary">₩ 4,800</span>
+</div>
+<div class="flex items-center justify-between">
+<span>치즈 할라피뇨 치아바타</span>
+<span class="font-semibold text-primary">₩ 5,200</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-lowest/80 rounded p-3 flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary">lunch_dining</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">페어링 추천: 발사믹 식초 글레이즈, 부라타 치즈 샐러드</span>
+</div>
+</div>
+<!-- 11:30 Step (Full Lineup) -->
+<div class="bg-primary text-on-primary rounded-xl p-8 shadow-md flex flex-col justify-between transition-transform hover:-translate-y-1 duration-300 relative overflow-hidden">
+<div class="absolute -right-4 -top-6 font-display-hero text-8xl text-on-primary/10 select-none font-bold">3</div>
+<div class="relative space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-secondary text-on-secondary rounded font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">workspace_premium</span>
+<span>3차 완벽 완성 11:30 출하</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-fixed">100% 맷돌 제분 유기농 통밀빵</h3>
+<p class="font-body-md text-body-md text-inverse-on-surface/90 leading-relaxed">
+              [전 라인업 구비 완료 시점] 묵직한 구수한 누룽지 향과 산미의 균형. 당뇨식, 다이어트 및 건강한 가족 아침 샌드위치를 위한 시그니처 러스틱 로프입니다.
+            </p>
+<div class="space-y-1.5 pt-2 font-body-sm text-body-sm text-inverse-on-surface/80">
+<div class="flex items-center justify-between">
+<span>100% 맷돌 통밀 깡빠뉴 (통/하프)</span>
+<span class="font-semibold text-secondary-fixed">₩ 8,800 / 4,800</span>
+</div>
+<div class="flex items-center justify-between">
+<span>무화과 호두 시골빵</span>
+<span class="font-semibold text-secondary-fixed">₩ 6,500</span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 bg-surface-container-highest/20 rounded p-3 flex items-center gap-3 text-secondary-fixed">
+<span class="material-symbols-outlined">grade</span>
+<span class="font-label-sm text-label-sm font-semibold">11:30 방문 시 모든 빵을 따뜻한 상태로 직접 선택 가능</span>
+</div>
+</div>
+</div>
+<!-- Detailed Baking Ledger Table -->
+<div class="bg-surface rounded-xl p-6 lg:p-8 shadow-sm">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">table_rows</span>
+<span>상세 오븐 출하 및 품목 스펙 장부</span>
+</h4>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-md text-body-md">
+<thead>
+<tr class="bg-surface-container-high/60 text-primary font-label-md text-label-md tracking-wider">
+<th class="py-3 px-4 rounded-l">출하 시각</th>
+<th class="py-3 px-4">품목명</th>
+<th class="py-3 px-4">곡물 구성 &amp; 수분율</th>
+<th class="py-3 px-4">식감 &amp; 풍미 프로파일</th>
+<th class="py-3 px-4">일일 한정량</th>
+<th class="py-3 px-4 rounded-r">추천 식사 페어링</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-highest">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-4 font-bold text-secondary">08:30</td>
+<td class="py-4 px-4 font-headline-sm text-headline-sm text-primary">정통 프랑스 바게트</td>
+<td class="py-4 px-4 font-body-sm text-body-sm text-on-surface-variant">프랑스 T65 전통분 (수분율 75%)</td>
+<td class="py-4 px-4 text-on-surface">바삭한 크러스트, 쫄깃하고 가벼운 내상</td>
+<td class="py-4 px-4 font-label-md text-label-md text-on-surface-variant">40개 한정</td>
+<td class="py-4 px-4 text-on-surface-variant font-body-sm">프렌치 햄버터 잠봉뵈르, 따뜻한 스프</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-4 font-bold text-secondary">08:30</td>
+<td class="py-4 px-4 font-headline-sm text-headline-sm text-primary">플레인 사워도우 치아바타</td>
+<td class="py-4 px-4 font-body-sm text-body-sm text-on-surface-variant">국산 맥선 유기농맥 (수분율 82%)</td>
+<td class="py-4 px-4 text-on-surface">폭신하고 촉촉한 기포감, 순수한 효모향</td>
+<td class="py-4 px-4 font-label-md text-label-md text-on-surface-variant">50개 한정</td>
+<td class="py-4 px-4 text-on-surface-variant font-body-sm">모닝 에그 샌드위치, 올리브유</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-4 font-bold text-secondary">10:30</td>
+<td class="py-4 px-4 font-headline-sm text-headline-sm text-primary">올리브 허브 치아바타</td>
+<td class="py-4 px-4 font-body-sm text-body-sm text-on-surface-variant">T55 + 엑스트라버진 (수분율 80%)</td>
+<td class="py-4 px-4 text-on-surface">올리브 과육의 즙, 로즈마리의 은은한 향</td>
+<td class="py-4 px-4 font-label-md text-label-md text-on-surface-variant">35개 한정</td>
+<td class="py-4 px-4 text-on-surface-variant font-body-sm">브런치 파스타 사이드 브레드</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-4 font-bold text-secondary">11:30</td>
+<td class="py-4 px-4 font-headline-sm text-headline-sm text-primary">100% 맷돌 제분 통밀 깡빠뉴</td>
+<td class="py-4 px-4 font-body-sm text-body-sm text-on-surface-variant">구례 통밀 100% + 자가르방 (수분율 78%)</td>
+<td class="py-4 px-4 text-on-surface">단단한 크러스트, 묵직하고 고소한 곡물 풍미</td>
+<td class="py-4 px-4 font-label-md text-label-md text-on-surface-variant">25개 한정</td>
+<td class="py-4 px-4 text-on-surface-variant font-body-sm">아보카도 오픈 토스트, 리코타 치즈</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 px-4 font-bold text-secondary">11:30</td>
+<td class="py-4 px-4 font-headline-sm text-headline-sm text-primary">무화과 피칸 러스틱 깜빠뉴</td>
+<td class="py-4 px-4 font-body-sm text-body-sm text-on-surface-variant">호밀 20% + 통밀 30% (수분율 76%)</td>
+<td class="py-4 px-4 text-on-surface">와인에 절인 반건조 무화과의 단맛, 피칸의 고소함</td>
+<td class="py-4 px-4 font-label-md text-label-md text-on-surface-variant">20개 한정</td>
+<td class="py-4 px-4 text-on-surface-variant font-body-sm">와인 안주, 블루치즈, 커피 브레이크</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Store Locations, Maps, Parking & Walk Guide -->
+<section class="w-full max-w-7xl mx-auto px-6 lg:px-12 py-16 lg:py-24">
+<div class="max-w-3xl mb-12">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Store Locations</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">송파 주거지역 두 개의 매장</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+        방이동 주택가 골목길의 한적한 본점과 석촌호수 인근의 베이커스 랩. 걸어서 방문하시는 동네 이웃분들과 차량을 이용하시는 분들을 위한 상세 접근 동선입니다.
+      </p>
+</div>
+<!-- Two Stores Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<!-- Store 1: Bangi (Main) -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm flex flex-col justify-between">
+<div class="p-8">
+<div class="flex items-center justify-between pb-4 border-b border-surface-container-highest">
+<div>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">FLAGSHIP HEARTH</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-1">방이점 (본점)</h3>
+</div>
+<span class="px-3 py-1 bg-surface-container text-primary font-label-sm text-label-sm rounded-full">하드빵 특화 제조본점</span>
+</div>
+<!-- Map View Component -->
+<div class="my-6 rounded-lg overflow-hidden relative shadow-inner">
+<div class="w-full h-56 bg-cover bg-center" data-alt="Detailed map view centered on quiet residential streets of Bangi-dong near Songpa, marked with warm coffee colored pins, soft cream and beige terrain styling." data-location="Seoul Songpa-gu Bangi-dong 14-2" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB9xhznytuLNPIIUpRFUGXHPEgivaJJbi-tvkr1ov7rh8Zy6bZk25-W7jBELER1cxAp8xIPR1vGVagsDKsh4veOmD0eTyjbMSilOMavCM2Oi_lwgcm3JZmrSIuxOlLwYqLkVCv1DrNiiqjjBeh8bwbIUSXhU8fqk8b5FatBuzEKA9lJw5qRgh74rmLSJr08smVJHUx45qEujy8Nny0EoPF2nUKZ0yMOEKtTKMhpWp4Dbd6znKFoHnm2')">
+</div>
+<div class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded shadow-sm flex items-center gap-2 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[16px] text-secondary">pin_drop</span>
+<span>송파나루역 3번 출구 도보 6분</span>
+</div>
+</div>
+<div class="space-y-4 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">location_on</span>
+<div>
+<p class="font-semibold text-on-surface">서울시 송파구 백제고분로 방이동 골목 14-2 (1층)</p>
+<p class="text-on-surface-variant">방이초등학교 인근 조용한 주택가 코너 골목길 위치</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">directions_walk</span>
+<div>
+<p class="font-semibold text-on-surface">도보 접근 동선</p>
+<p>9호선 송파나루역 3번 출구 나와 방이시장 방면으로 350m 직진 후 약국 골목 우회전 80m</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">local_parking</span>
+<div>
+<p class="font-semibold text-on-surface">주차 및 픽업 정차 안내</p>
+<p>매장 바로 앞 픽업 전용 임시 정차 공간(최대 10분) 1대 가능. 장시간 주차는 도보 2분 거리 방이마을 공영주차장을 이용해 주세요.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container px-8 py-4 flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span>영업시간: 08:30 ~ 19:30 (월요일 휴무)</span>
+<a class="text-secondary hover:text-primary flex items-center gap-1 font-semibold" href="tel:02-415-8821">
+<span class="material-symbols-outlined text-[16px]">call</span>
+<span>02-415-8821</span>
+</a>
+</div>
+</div>
+<!-- Store 2: Seokchon (Bakers Lab) -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm flex flex-col justify-between">
+<div class="p-8">
+<div class="flex items-center justify-between pb-4 border-b border-surface-container-highest">
+<div>
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase">BAKERS LAB &amp; CAFE</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-1">석촌점 (베이커스 랩)</h3>
+</div>
+<span class="px-3 py-1 bg-surface-container text-primary font-label-sm text-label-sm rounded-full">샌드위치 &amp; 필터커피 페어링</span>
+</div>
+<!-- Map View Component -->
+<div class="my-6 rounded-lg overflow-hidden relative shadow-inner">
+<div class="w-full h-56 bg-cover bg-center" data-alt="Clean minimal cartographic map snapshot highlighting Seokchon Lake western path and neighborhood alleys of Seokchon-dong, warm amber markers and soft wheat tones." data-location="Seoul Songpa-gu Seokchon-dong 82" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAd_96BQ8Xd9N_hmYzql6OWGNn6kQMf6S3oe9tN7KEBx_zrnFz3Yd8bKxE3paB0YJ4Ggi_QMHZljOTFso6eE40OCMKYwQ2x2sXQHTLrC7RQh-1lbZizQZrmWUeprZFrZh5b6Hto6GHq_vUPeyDGsBSDMBc2cWiUxz2JEXK6zWMtzwEyuKUsbRdteh2BhkaqsAFEwq5zRodCPeQEV_GUqPxDH3PhmMrLSzK4jELC9ZK-pV0OmhWkrEq7')">
+</div>
+<div class="absolute bottom-3 left-3 bg-surface/90 backdrop-blur-md px-3 py-1.5 rounded shadow-sm flex items-center gap-2 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[16px] text-secondary">pin_drop</span>
+<span>석촌역 7번 출구 / 석촌호수 서호 도보 4분</span>
+</div>
+</div>
+<div class="space-y-4 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">location_on</span>
+<div>
+<p class="font-semibold text-on-surface">서울시 송파구 석촌호수길 석촌동 82 (1층)</p>
+<p class="text-on-surface-variant">석촌호수 산책로 서호 뒷편 카페 거리 초입</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">directions_walk</span>
+<div>
+<p class="font-semibold text-on-surface">도보 접근 동선</p>
+<p>8호선·9호선 석촌역 7번 출구에서 레이크호텔 방향 직진 후 호수공원 진입로 바로 앞</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">local_parking</span>
+<div>
+<p class="font-semibold text-on-surface">주차 및 픽업 정차 안내</p>
+<p>건물 뒤편 지하주차장 1시간 무료 지원(차량번호 등록). 포장 주문 픽업 시 매장 옆 도로변 5분 정차 비상등 허용 구역 이용 가능.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container px-8 py-4 flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span>영업시간: 08:30 ~ 20:00 (화요일 휴무)</span>
+<a class="text-secondary hover:text-primary flex items-center gap-1 font-semibold" href="tel:02-416-8822">
+<span class="material-symbols-outlined text-[16px]">call</span>
+<span>02-416-8822</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Honest Customer Service Pledge & Slice Thickness Guide -->
+<section class="w-full bg-surface-container py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="bg-surface rounded-2xl p-8 lg:p-14 shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Pledge Manifesto -->
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-tertiary-container/20 text-on-tertiary-fixed-variant rounded font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">handshake</span>
+<span>정직한 빵의 고객 응대 약속</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+              “바쁘다는 핑계로 손님 응대와 설명을 소홀히 하지 않습니다.”
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              우리가 만든 하드 식사빵은 손님의 집 식탁 위에서 비로소 완성된다고 믿습니다.
+              어떤 요리와 곁들이시는지, 며칠 동안 나누어 드실 것인지 물어보고 그에 맞는 가장 완벽한 썰기 두께와 보관법을 차분히 설명해 드립니다.
+            </p>
+<div class="pt-2 flex flex-col gap-3 font-body-sm text-body-sm text-on-surface">
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 rounded-full bg-secondary-container/40 text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</span>
+<span>매장 내 대기 줄이 길어도 손님의 식사 취향에 귀 기울입니다.</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 rounded-full bg-secondary-container/40 text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</span>
+<span>원하시는 식감에 맞춘 정밀 브레드 슬라이서 두께 맞춤 서비스.</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 rounded-full bg-secondary-container/40 text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</span>
+<span>첫 하드 계열 사워도우를 접하시는 분을 위한 부담 없는 시식 샘플 제공.</span>
+</div>
+</div>
+</div>
+<!-- Interactive Slice Guide Graphic -->
+<div class="lg:col-span-6 bg-surface-container-low rounded-xl p-8 space-y-6">
+<h3 class="font-headline-sm text-headline-sm text-primary flex items-center justify-between">
+<span>식탁용 추천 썰기 두께 (Slice Standard)</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Bakery Guide</span>
+</h3>
+<!-- Slice Card 1 -->
+<div class="bg-surface p-5 rounded-lg shadow-sm space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">바게트 슬라이스</span>
+<span class="px-2.5 py-0.5 bg-secondary-container text-on-secondary-container font-label-md text-label-md rounded">1.2 cm 두께 권장</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                크러스트의 단단한 바삭함과 크럼의 부드러움이 입안에서 가장 조화로운 두께입니다. 브루스케타나 스프에 찍어먹기에 이상적입니다.
+              </p>
+<div class="flex items-center gap-1 pt-1">
+<div class="h-1.5 w-12 bg-secondary rounded"></div>
+<span class="text-[11px] text-outline font-label-sm">크러스트 깨짐 방지 사선 커팅</span>
+</div>
+</div>
+<!-- Slice Card 2 -->
+<div class="bg-surface p-5 rounded-lg shadow-sm space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">100% 통밀 깡빠뉴</span>
+<span class="px-2.5 py-0.5 bg-secondary-container text-on-secondary-container font-label-md text-label-md rounded">1.5 cm 두께 권장</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                통밀 특유의 밀도감 있는 조직감을 살리면서 토스터에 구웠을 때 속 수분이 증발하지 않고 촉촉함을 유지하는 최적의 두께입니다.
+              </p>
+<div class="flex items-center gap-1 pt-1">
+<div class="h-1.5 w-16 bg-secondary rounded"></div>
+<span class="text-[11px] text-outline font-label-sm">수분 손실 방지 랩핑 필수</span>
+</div>
+</div>
+<!-- Slice Card 3 -->
+<div class="bg-surface p-5 rounded-lg shadow-sm space-y-2">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">치아바타 샌드위치용</span>
+<span class="px-2.5 py-0.5 bg-secondary-container text-on-secondary-container font-label-md text-label-md rounded">수평 2등분 (Horizontal Cut)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                촉촉한 기포를 살려 샌드위치 속재료의 수분을 머금도록 수평으로 슬라이스해 포장해 드립니다.
+              </p>
+</div>
+<!-- Storage Tip Box -->
+<div class="bg-surface-container-high/60 rounded-lg p-4 flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">ac_unit</span>
+<div class="font-body-sm text-body-sm text-on-surface-variant">
+<strong class="text-on-surface">보관 시 주의:</strong> 실온에서는 2일 이내 섭취, 남은 빵은 슬라이스 후 즉시 밀폐 용기에 담아 <strong>냉동 보관</strong>하세요. (냉장실 보관은 수분을 빼앗아 노화를 급격히 진행시킵니다.)
+              </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Reservation & Pickup Service Guide (Anchor) -->
+<section class="w-full max-w-7xl mx-auto px-6 lg:px-12 py-16 lg:py-24" id="reservation-anchor">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left: Service Concept & Notice -->
+<div class="lg:col-span-5 space-y-6">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Bread Reservation</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          헛걸음하지 않도록,<br/>당일 픽업 예약 서비스
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          정직한 빵은 인위적인 대량 생산을 하지 않습니다. 매일 정해진 오븐 분량만 정성스레 구워내기에, 퇴근길이나 오후 늦게 방문하시는 분들을 위해 당일 픽업 예약 시스템을 운영합니다.
+        </p>
+<div class="space-y-4 pt-4">
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-secondary-container/50 text-secondary flex items-center justify-center shrink-0 font-bold">1</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">당일 08:00 ~ 14:00 예약 접수</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">원하시는 매장(방이/석촌)과 빵 종류, 수량, 슬라이스 유무를 선택합니다.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-secondary-container/50 text-secondary flex items-center justify-center shrink-0 font-bold">2</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">예약 확정 및 개별 패킹</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">오븐 출하 시간에 맞추어 수분 손실을 막는 전용 브레드 백에 예약자 성함으로 보관합니다.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-secondary-container/50 text-secondary flex items-center justify-center shrink-0 font-bold">3</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">매장 방문 후 즉시 수령</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">영업 마감 30분 전까지 언제든 대기 없이 간편하게 픽업하실 수 있습니다.</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl space-y-2">
+<div class="flex items-center gap-2 text-primary font-semibold font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[18px]">phone_in_talk</span>
+<span>전화 유선 예약도 환영합니다</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            웹 작성이 번거로우신 어르신이나 단체 주문은 각 매장으로 전화 주시면 친절히 빵을 따로 챙겨둡니다.
+          </p>
+</div>
+</div>
+<!-- Right: Interactive Reservation Request Form -->
+<div class="lg:col-span-7 bg-surface-container-low rounded-2xl p-8 lg:p-10 shadow-sm flex flex-col justify-between">
+<form class="space-y-6" id="pickup-form" onsubmit="event.preventDefault(); handlePickupSubmit();">
+<div class="flex items-center justify-between pb-4 border-b border-surface-container-highest">
+<h3 class="font-headline-sm text-headline-sm text-primary">간편 픽업 예약 신청서</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">당일 수령 전용</span>
+</div>
+<!-- Store Selection Radio -->
+<div class="space-y-2">
+<label class="block font-label-md text-label-md text-primary">수령 희망 매장 선택 *</label>
+<div class="grid grid-cols-2 gap-4">
+<label class="flex items-center gap-3 p-3.5 bg-surface rounded-lg cursor-pointer hover:bg-surface-container transition-colors">
+<input checked="" class="w-4 h-4 accent-primary" name="store" type="radio" value="bangi"/>
+<span class="font-body-md text-body-md text-on-surface font-medium">방이점 (본점)</span>
+</label>
+<label class="flex items-center gap-3 p-3.5 bg-surface rounded-lg cursor-pointer hover:bg-surface-container transition-colors">
+<input class="w-4 h-4 accent-primary" name="store" type="radio" value="seokchon"/>
+<span class="font-body-md text-body-md text-on-surface font-medium">석촌점 (베이커스 랩)</span>
+</label>
+</div>
+</div>
+<!-- Bread Item Selection (Checkboxes) -->
+<div class="space-y-2">
+<label class="block font-label-md text-label-md text-primary">예약할 빵 선택 (다중 선택 가능) *</label>
+<div class="space-y-2 bg-surface p-4 rounded-lg">
+<label class="flex items-center justify-between text-on-surface cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 accent-primary rounded" name="bread" type="checkbox" value="baguette"/>
+<span class="font-body-md text-body-md">정통 프랑스 바게트 (₩4,500)</span>
+</span>
+<span class="font-label-sm text-label-sm text-secondary">08:30 출하</span>
+</label>
+<label class="flex items-center justify-between text-on-surface cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 accent-primary rounded" name="bread" type="checkbox" value="ciabatta_plain"/>
+<span class="font-body-md text-body-md">플레인 사워도우 치아바타 (₩4,000)</span>
+</span>
+<span class="font-label-sm text-label-sm text-secondary">08:30 출하</span>
+</label>
+<label class="flex items-center justify-between text-on-surface cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 accent-primary rounded" name="bread" type="checkbox" value="ciabatta_olive"/>
+<span class="font-body-md text-body-md">더블 올리브 치아바타 (₩4,800)</span>
+</span>
+<span class="font-label-sm text-label-sm text-secondary">10:30 출하</span>
+</label>
+<label class="flex items-center justify-between text-on-surface cursor-pointer">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 accent-primary rounded" name="bread" type="checkbox" value="campagne_wheat"/>
+<span class="font-body-md text-body-md">100% 맷돌 제분 통밀 깡빠뉴 (₩8,800)</span>
+</span>
+<span class="font-label-sm text-label-sm text-secondary">11:30 출하</span>
+</label>
+</div>
+</div>
+<!-- Slicing Option -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary">슬라이스 요청</label>
+<select class="w-full bg-surface text-on-surface px-4 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary">
+<option value="recommend">추천 기본 두께로 슬라이스</option>
+<option value="whole">통째로 포장 (보관 후 직접 썰기)</option>
+<option value="thin">얇게 슬라이스 (샌드위치용)</option>
+<option value="thick">도톰하게 슬라이스 (프렌치 토스트용)</option>
+</select>
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary">픽업 예정 시간 *</label>
+<select class="w-full bg-surface text-on-surface px-4 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary">
+<option>오후 12:00 ~ 14:00</option>
+<option>오후 14:00 ~ 16:00</option>
+<option>오후 16:00 ~ 18:00 (퇴근길)</option>
+<option>오후 18:00 ~ 19:30 (마감 전)</option>
+</select>
+</div>
+</div>
+<!-- Customer Info Fields -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary">예약자 성함 *</label>
+<input class="w-full bg-surface text-on-surface px-4 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-outline-variant" placeholder="홍길동" required="" type="text"/>
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary">연락처 *</label>
+<input class="w-full bg-surface text-on-surface px-4 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-outline-variant" placeholder="010-0000-0000" required="" type="tel"/>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-primary">추가 요청사항</label>
+<input class="w-full bg-surface text-on-surface px-4 py-2.5 rounded-lg font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary placeholder:text-outline-variant" placeholder="예: 바게트 절반만 썰어주시고, 종이백 개별 포장 부탁드립니다." type="text"/>
+</div>
+<div class="pt-2">
+<button class="w-full py-4 bg-primary text-on-primary rounded font-label-lg text-label-lg hover:bg-secondary transition-colors duration-200 flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span>당일 픽업 예약 접수하기</span>
+</button>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-center mt-3">
+              결제는 매장에서 실물 빵을 확인하신 후 진행됩니다. 노쇼 방지를 위해 시간 변경 시 연락 부탁드립니다.
+            </p>
+</div>
+</form>
+<!-- Dynamic Success Message (Hidden by default) -->
+<div class="hidden bg-surface rounded-xl p-8 text-center space-y-4 my-auto" id="reservation-success">
+<div class="w-16 h-16 bg-secondary-container/40 text-on-secondary-container rounded-full mx-auto flex items-center justify-center">
+<span class="material-symbols-outlined text-[32px]">task_alt</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-primary">예약 요청이 정상 접수되었습니다</h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mx-auto">
+            베이커에서 확인 후 10분 내로 수령 안내 알림톡(SMS)을 발송해 드립니다. 정성껏 갓 구운 빵을 포장해 두겠습니다.
+          </p>
+<button class="px-6 py-2.5 bg-primary text-on-primary font-label-md text-label-md rounded hover:bg-secondary transition-colors" onclick="resetReservationForm()">
+            추가 예약하기
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Warm Bread Storytelling / Domestic Table Collage -->
+<section class="w-full bg-surface-container-high/40 py-16">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="flex items-center gap-6">
+<div class="w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[32px]">favorite</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary">송파 동네 주민분들과 함께 가꾸는 식탁</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            아이의 첫 이유식 빵부터 부모님의 당뇨 식단까지, 우리 가족이 매일 먹는다는 마음으로 속 편한 빵을 만듭니다.
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-4 shrink-0">
+<span class="font-label-md text-label-md text-on-surface-variant">인스타그램 현장 빵 소식</span>
+<a class="px-4 py-2 bg-surface text-primary font-label-md text-label-md rounded shadow-sm hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+<span>@honest.hearth.songpa</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Client-side Interactive Script -->
+<script>
+    function handlePickupSubmit() {
+      const form = document.getElementById('pickup-form');
+      const success = document.getElementById('reservation-success');
+      form.classList.add('hidden');
+      success.classList.remove('hidden');
+    }
+
+    function resetReservationForm() {
+      const form = document.getElementById('pickup-form');
+      const success = document.getElementById('reservation-success');
+      form.reset();
+      form.classList.remove('hidden');
+      success.classList.add('hidden');
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface pt-16 pb-12 shadow-[0_-1px_6px_rgba(62,39,24,0.03)]"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12"><div class="space-y-4"><div class="space-y-1"><h3 class="font-headline-sm text-headline-sm text-primary">정직한 빵 | 원칙의 식탁</h3><p class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Songpa Hearth Artisan Bakery</p></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">밀가루, 물, 소금, 천연 발효종(Levain). 인공첨가물 없이 24시간 저온 숙성으로 완성하는 송파의 정통 하드 식사빵 전문점입니다.</p></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg text-primary tracking-wide">송파 매장 안내</h4><div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><p><strong class="text-on-surface">방이점 (본점):</strong> 서울시 송파구 백제고분로 방이동 골목 14-2</p><p><strong class="text-on-surface">석촌점 (베이커스 랩):</strong> 서울시 송파구 석촌호수길 석촌동 82</p><p class="text-label-sm text-label-sm text-secondary font-semibold">매일 08:30 - 19:30 (빵 소진 시 조기 마감)</p></div></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg text-primary tracking-wide">B2B 레스토랑 &amp; 카페 파트너십</h4><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">송파·잠실·강남 일대 파인다이닝, 프렌치 비스트로, 브런치 카페에 매일 이른 아침 구워낸 신선한 하드 바게트와 깜빠뉴를 정기 직배송합니다.</p><a class="inline-block font-label-md text-label-md text-primary underline underline-offset-4 hover:text-secondary transition-colors" data-path="b2b-supply-inquiry" href="#">도매 공급 단가표 및 샘플 신청</a></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg text-primary tracking-wide">원칙 선언문 (Principles)</h4><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li>1. 무첨가 100% 맷돌 제분 통밀 &amp; 프랑스 전통 T65 분말</li><li>2. 2018년부터 이어온 자가 배양 천연 르방</li><li>3. 당일 생산 당일 소진, 다음 날의 식탁을 위한 반죽</li></ul></div></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p>© 2024 정직한 빵 | 원칙의 식탁 (Honest Hearth Bread). All rights reserved.</p><div class="flex items-center gap-6 font-label-sm text-label-sm"><a class="hover:text-on-surface transition-colors" data-path="brand-principles" href="#">이용약관</a><a class="hover:text-on-surface transition-colors" data-path="brand-principles" href="#">개인정보처리방침</a><a class="hover:text-on-surface transition-colors" data-path="b2b-supply-inquiry" href="#">사업자정보확인</a></div></div></div></footer></body></html>
